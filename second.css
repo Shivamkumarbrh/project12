@@ -1,0 +1,93 @@
+.r-container{
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.img-container{
+    width: 100%;
+    box-sizing: border-box;
+}
+.img-container img{
+    width: 49.5%;
+    box-sizing: border-box;
+    margin-bottom: -7px;
+    box-sizing: border-box;
+    border: 7px solid white;
+    opacity: 0.8;
+}
+.intro{
+    padding: 10px 7px;
+}
+.intro h1{
+    padding: 20px 0px;
+    font-size:4em;
+}
+.intro h2{
+    padding: 15px 0px;
+    font-size: 2em;
+    color: red;
+}
+#intropara{
+    width: 30px;
+    border-radius: 5px;
+    border: 4px solid red;
+}
+.img-container img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.services{
+    padding: 40px 0px;
+}
+.services h1{
+    color: red;
+    font-size: 2.5em;
+    padding: 20px 0px;
+}
+#s-line,#d-line{
+    width: 35px;
+    border: 4px solid red;
+    border-radius: 5px;
+}
+#s-para,#d-para{
+    padding: 15px 0px;
+}
+.designer{
+    padding: 20px 0px;
+}
+.designer h1{
+    color: red;
+    font-size: 2.5em;
+    padding: 20px 0px;
+}
+.designerpicture{
+    display: flex;
+    margin: 20px 0px 40px 0px;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.designerimg{
+    width: 32.5%;
+    background-color: #f1f1f1;
+
+}
+.designerimg h3{
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.designerimg p{
+    padding: 10px 15px;
+}
+.designer-p{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    color: #aaa;
+}
+.designerimg img{
+    width: 100%;
+}
