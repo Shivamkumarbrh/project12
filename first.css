@@ -24,6 +24,9 @@ span{
     color: black;
     background-color: #f1f1f1;
 }
+.l-containerMobile{
+    display: none;
+}
 .l-container{
     width: 300px;
     z-index: 3;

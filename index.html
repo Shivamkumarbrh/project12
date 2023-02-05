@@ -14,65 +14,93 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 <body>
-    <div class="navbar">
-        <p> <i class="fa-solid fa-bars"></i> <span>Company Name</span> </p>
+   
+    <!-- for Mobile -->
+    <div class="navbar" >
+        <span class="navbarFirstItem"><i class="fa-solid fa-bars" ></i></span> 
+        <span class="navbarSecondItem" style="margin:0px auto">Company Name</span> 
+            </div>
+        </div>
+        <div class="l-containerMobile">
+            <div class="l-contentMobile" onclick="closeContainer()">
+            <button id="leftContainerCloseBtn" onclick="closeContainer()">Close Menu</button>
+            <h2>Company <br>Name</h2>
+            <a href="#">Home</a>
+            <a href="#showCase">Showcase</a>
+            <a href="#service">Services</a>
+            <a href="#designer">Designers</a>
+            <a href="#package">Packages</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="r-contentMobile"></div>
     </div>
+
+    <!-- for Mobile -->
+
+
     <div class="l-container">
         <h2>Company <br>Name</h2>
         <a href="#">Home</a>
-        <a href="#">Showcase</a>
-        <a href="#">Services</a>
-        <a href="#">Designers</a>
-        <a href="#">Packages</a>
-        <a href="#">Contact</a>
+        <a href="#showCase">Showcase</a>
+            <a href="#service">Services</a>
+            <a href="#designer">Designers</a>
+            <a href="#package">Packages</a>
+            <a href="#contact">Contact</a>
     </div>
     <div class="r-container">
+        <section id="showCase">
         <div class="intro">
             <h1>Interior Design</h1>
             <h2>Showcase.</h2>
             <p id="intropara"></p>
         </div>
         <div class="img-container">
-            <img src="/project 22/img/first.jpg" alt="#">
-            <img src="/project 22/img/first.jpg" alt="#">
-            <img src="/project 22/img/fourth.jpg" alt="#">
-            <img src="/project 22/img/fourth.jpg" alt="#">
-            <img src="/project 22/img/sixth.jpg" alt="#">
-            <img src="/project 22/img/sixth.jpg" alt="#">
+            <img src="https://cdn.pixabay.com/photo/2017/06/13/22/42/kitchen-2400367_960_720.jpg" alt="#">
+            <img src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_960_720.jpg" alt="#">
+            <img src="https://cdn.pixabay.com/photo/2016/11/21/16/21/bed-1846251_960_720.jpg" alt="#">
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/12/43/kitchen-2565105_960_720.jpg" alt="#">
+            <img src="https://cdn.pixabay.com/photo/2017/06/13/22/42/kitchen-2400367_960_720.jpg" alt="#">
+            <img src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_960_720.jpg" alt="#">
         </div>
+    </section>
+    <section id="service">
         <div class="services">
             <h1>Services.</h1>
             <p id="s-line"></p>
             <p id="s-para">We are a interior design service that focus on what's best for your home and what's best for you!</p>
             <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
+    </section>
+    <section id="designer">
         <div class="designer">
             <h1>Designers.</h1>
             <p id="d-line"></p>
             <p  id="d-para">The best team in the world.</p>
             <p >We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
+    </section>
         <h3>Our designers are thoughtfully chosen:</h3>
         <div class="designerpicture">
             <div class="designerimg">
-                <img src="/project 22/img/man1.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2017/07/18/18/02/little-girl-2516582_960_720.jpg" alt="">
                 <h3>John Doe</h3>
                 <p class="designer-p">CFO & Founder</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
             <div class="designerimg">
-                <img src="/project 22/img/woman2.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2017/07/18/18/02/little-girl-2516582_960_720.jpg" alt="">
                 <h3>John Doe</h3>
                 <p class="designer-p">CFO & Founder</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
             <div class="designerimg">
-                <img src="/project 22/img/man2.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2017/07/18/18/02/little-girl-2516582_960_720.jpg" alt="">
                 <h3>John Doe</h3>
                 <p class="designer-p">CFO & Founder</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
     </div>
+    <section id="package">
         <div class="package">
             <h1>Packages.</h1>
             <p id="p-line"></p>
@@ -98,6 +126,8 @@
             <li><button id="pro-btn">Sign Up</button></li>
         </ul>
         </div>
+    </section>
+    <section id="contact">
         <div class="contact">
             <h1>Contact</h1>
             <p id="c-line"></p>
@@ -111,9 +141,11 @@
             <button id="msg-btn">Send Message</button>
 
         </div>
+    </section>
     </div>
     <footer>
         Powered by CodeBYKumar
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

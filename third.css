@@ -46,6 +46,7 @@
 #basic-btn,#pro-btn{
     padding: 12px 20px;
     border: none;
+    cursor: pointer;
     background-color: white;
 }
 #pro-btn{
@@ -91,6 +92,7 @@
     border: none;
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 #msg-btn:hover{
     background-color: #f1f1f1;

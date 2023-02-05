@@ -1,5 +1,70 @@
 @media screen and (max-width:994px) {
     .navbar{
+        display: flex;
+        background-color: red;
+        color: white;
+        width: 100%;
+        padding: 8px 12px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    .navbar i{
+        cursor: pointer;
+    }
+    #leftContainerCloseBtn{
+        padding: 8px 12px;
+        display: block;
+        color: white;
+        margin:20px auto;
+        font-size: 1.2em;
+        border: none;
+        background-color: transparent;
+        text-align: center;
+    }
+    .l-containerMobile{
+        display: none;
+        position: absolute;
+        top: 0px;
+        background-color: red;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .l-contentMobile{
+        min-width:350px;
+        background-color:red;
+        z-index: 3;
+        background-color: rgba(255, 0, 0, 1);
+        top: 0;
+        box-sizing: border-box;
+        position: fixed;
+        padding: 0px 25px;
+        color: white;
+        height: 100vh;
+        font-size: 1.2em;
+    }
+    .l-contentMobile h2{
+        padding: 75px 0px;
+    }
+    .l-contentMobile a{
+        display: block;
+        padding: 10px 10px;
+        color: white;
+        text-decoration: none;
+    }
+    .l-contentMobile a:hover{
+        background-color: white;
+        color: black;
+    }
+    .r-contentMobile{
+        box-sizing: border-box;
+        height: 100vh;
+        position: fixed;
+        z-index: 3;
+        left: 350px;
+       background-color: rgba(0, 0, 0, 0.4);
+        width:calc( 100% - 350px);
+    }
+    .navbar{
         display: block;
     }
     .l-container{
@@ -11,8 +76,20 @@
     }
 }
 @media screen and (max-width:600px){
+    .l-contentMobile{
+        min-width:250px;
+    }
+    .r-contentMobile{
+        left: 250px;
+       background-color: rgba(0, 0, 0, 0.4);
+        width:calc( 100% - 250px);
+    }
     .img-container img{
         width: 100%;
+    }
+    span{
+        text-align: center;
+        padding-left: 10px;
     }
     .designerimg{
         width: 100%;
